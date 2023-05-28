@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif ;
+}
+body{ 
+    background-image: linear-gradient(9deg,  rgba(0,0,0,0.8), transparent), url("image/image\(4\).webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px 25px 15px;
+    background-color: rgba(0,0,0,0.4);
+    height: 35rem;
+    border-radius: 30px;
+}
+span{
+    color:#fff;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    font-weight: 400;
+}
+header{
+    color:#a7a9f5;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    font-weight: 600;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 12px 2px;
+}
+i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color:  rgb(123, 195, 254);
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+}
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color:#fff;
+    font-size: 18px;
+    padding: 0 0 0 42px;
+    background-color: rgba(255,255,255,0.3);
+    cursor: pointer;
+    transition: .1s;
+}
+.submit:hover{
+    box-shadow: 1px 5px 1px 1px rgba(240,240,240,0.1);
+    background-color: rgb(41, 79, 195);
+    color: #fff;
+    transition: 0.1s;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:  rgb(79, 114, 219);
+    margin-top: 15px;
+}
+.left{
+    display: flex;
+}
+label a{
+    color: #fff;
+    text-decoration: none;
+}
+label a:hover{
+    color: #9194f5;
+}
+@media(max-width:500px){
+    body{
+        background-image: linear-gradient( rgba(0,0,0,0.6), transparent), url("image/image\(4\).webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:left;
+        transform: scale(0.9);
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color:  #d18cf4;
+        font-size: 16px;    
+        margin-top: 15px;
+        transform: scale(1.01, 1.2);
+    }
+    
+}

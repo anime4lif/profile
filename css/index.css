@@ -582,4 +582,7 @@ header.sticky{
      .last{
         opacity: 0;
      }
+     .box h2{
+        font-size: 10px;
+    }
 }

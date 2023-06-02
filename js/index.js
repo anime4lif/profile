@@ -19,8 +19,7 @@ menu.onclick = () =>{
 // show more about me
 const show=document.querySelector(".showMore");
 const hidden=document.querySelector(".More");
-const image=document.querySelector(".photo");
-// const after=document.querySelector(".about-text");
+
 show.onclick = () =>{
     hidden.classList.toggle("show");
 
